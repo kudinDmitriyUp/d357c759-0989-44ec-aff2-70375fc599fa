@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -11,7 +11,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Calendar, Crown, DollarSign, Hand, Heart, HelpCircle, MessageSquare, PaintBrush, Palette, Sparkles, Star, Users } from "lucide-react";
+import { Calendar, Crown, DollarSign, Hand, Heart, HelpCircle, MessageSquare, Paintbrush, Palette, Sparkles, Star, Users, Flower } from "lucide-react";
 
 export default function Home() {
   return (
@@ -113,11 +113,11 @@ export default function Home() {
             },
             {
               "title": "Nail Art Design",
-              "icon": PaintBrush
+              "icon": Paintbrush
             },
             {
               "title": "Spa Treatment",
-              "icon": Sparkles
+              "icon": Flower
             }
           ]}
         />
